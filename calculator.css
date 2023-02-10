@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: white;
+    margin: 10px 10px;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #b3d5e0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: #1f2f5de0;    
+    border-radius: 10px;
+    box-shadow: -4px 1px 9px 2px #859095;
+}
+
+.display input {
+    background: transparent;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-size: x-large;
+    margin: 2px 2px;
+    margin-left: 11px;
+    width: 23rem;
+    height: 13vh;
+    border-radius: 10px;
+    
+    
+}
+
+/* <<<<< ROW-1 >>>>> */
+
+.row-1 {
+    margin: 14px 10px;
+    color: blue;
+}
+.row-1 button {
+    width: 70px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: -4px 1px 9px 2px skyblue;
+    cursor: pointer;
+}
+.row-1 button#dot {
+    font-weight: 800;
+}
+
+
+/* <<<<< ROW-2 >>>>> */
+
+.row-2 {
+    margin: 14px 10px;
+    color: blue;
+}
+.row-2 button {
+    width: 70px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: -4px 1px 9px 2px skyblue;
+    cursor: pointer;
+}
+.row-2 button#multiply {
+    font-weight: 800;
+}
+
+
+/* <<<<< ROW-3 >>>>> */
+
+.row-3 {
+    margin: 14px 10px;
+    color: blue;
+}
+.row-3 button {
+    width: 70px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: -4px 1px 9px 2px skyblue;
+    cursor: pointer;
+}
+.row-3 button#subtract {
+    font-weight: 800;
+}
+
+
+/* <<<<< ROW-4 >>>>> */
+
+.row-4 {
+    margin: 14px 10px;
+    color: blue; 
+}
+.row-4 button {
+    width: 70px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: -4px 1px 9px 2px skyblue;
+    cursor: pointer;
+}
+.row-4 button#add {
+    font-weight: 800;
+}
+
+
+
+/* <<<<< ROW-5 >>>>> */
+
+.row-5 {
+    margin: 14px 10px;
+    color: blue;
+}
+.row-5 button {
+    width: 70px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: -4px 1px 9px 2px skyblue;
+    cursor: pointer;
+}
+.row-5 button#equalto {
+    width: 164px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+/* <<<<< FOOTER >>>>> */
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
